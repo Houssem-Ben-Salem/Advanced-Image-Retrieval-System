@@ -40,6 +40,10 @@ Detailed steps to create your own index are provided in a separate README file "
 - `app.py`: The primary Streamlit application driving the user interface and interactions with Elasticsearch.
 - `config.py`: Centralized configuration settings for the application.
 - `es_operations.py`: Dedicated functions for Elasticsearch operations.
+- `image_validation.log`: Log file capturing details about image validation processes.
+- `image_validator.py`: Logic to validate images before indexing to Elasticsearch.
+- `logger_setup.py`: Configurations for setting up logging for the application.
+- `main.py`: The main execution script for the application.
 - `choose_model.py`: Setup for the BERT model used in semantic search.
 - `create_text_index.py`: Scripts for creating an index tailored for semantic search.
 - `feature_extraction.py`: Leverage ResNet50 to extract image features.
